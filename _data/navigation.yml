@@ -5,6 +5,6 @@ main:
   # - title: "About"
   #   link: /about.html
   - title: Home
-    link: /
+    link: /index.html
   - title: About
-    link: /about/
+    link: /about.html
