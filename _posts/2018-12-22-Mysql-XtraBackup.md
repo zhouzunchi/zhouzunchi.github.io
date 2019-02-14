@@ -12,7 +12,7 @@ title:  "Mysql Backup XtraBackup"
 InnoDB引擎很大程度上与Oracle类似，使用redo，undo机制，因此在热备期间需要考虑对于日志缓冲区在线事物日志及时写出到文件的问题。如果log buffer没有及时写出将被日志的循环写特性覆盖。xtrabackup在启动时会记住log sequence number（LSN），然后一页一页地复制InnoDB的数据。与此同时，监控log buffer中的日志情况，一旦log buffer发生变化，即数据发生了不一致，该过程会立即被捕获并把变化的页面复制到xtrabckup log，直到全部innoDB数据文件复制完成之后，停止监控log buffer及日志复制。
 ​    xtrabackup在恢复期间对提交的事务前滚，未提交或失败的事务进行回滚，从而保证数据的一致性。因此对于InnoDB表在备份期间不会锁表。由于XtraBackup其内置的InnoDB库打开文件的时候是rw的，所以运行XtraBackup的用户，必须对InnoDB的数据文件具有读写权限。
 
-   ![img](./images/xtrabackup.jpg)
+   ![img](/assets/images/xtrabackup.jpg)
 
 ## 工具安装
 
