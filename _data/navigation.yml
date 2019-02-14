@@ -12,16 +12,3 @@ main:
     link: /about.html
   - title: Blog
     link: /blog.html
-
-foo:
-  - title: "生活记录"
-    url: /_docs/
-
-  - title: "Linux"
-    url: /_docs/
-
-  - title: "Python"
-    url: /_docs/
-
-  - title: "Oracle"
-    url: /_docs/
