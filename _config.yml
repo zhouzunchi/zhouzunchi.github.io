@@ -295,4 +295,4 @@ defaults:
       related: true
 
 sidebar:
-  nav: "docs"
+  nav: "foo"
