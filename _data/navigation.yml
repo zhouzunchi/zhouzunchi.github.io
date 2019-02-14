@@ -9,6 +9,6 @@ main:
   - title: Home
     link: /
   - title: About
-    link: /about.html
+    link: _docs/auout.md
   - title: Blog
     link: /blog.html
