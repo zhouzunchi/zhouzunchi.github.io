@@ -6,8 +6,6 @@ title:  "Gitlab-Jenkins 持续集成"
 
 # 持续集成
 
- &copy;zhouzunchi@gmail.com
-
 > Jenkins
 >
 > GitLab
@@ -16,7 +14,6 @@ title:  "Gitlab-Jenkins 持续集成"
 >
 > Npm
 
-[TOC]
 
 ## Jenkins 使用 GitLab 管理用户认证
 
@@ -104,3 +101,4 @@ stage('Build') {
 
 ![](/assets/images/realworld-pipeline-flow.png)
 
+ &copy;zhouzunchi@gmail.com
