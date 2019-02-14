@@ -6,9 +6,9 @@ main:
   #   link: /
   # - title: "About"
   #   link: /about.html
-  - name: Home
+  - title: Home
     link: /
-  - name: About
+  - title: About
     link: /about.html
-  - name: Blog
+  - title: Blog
     link: /blog.html
